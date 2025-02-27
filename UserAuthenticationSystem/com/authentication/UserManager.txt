@@ -1,0 +1,12 @@
+package users;
+
+public class UserManager {
+    static final String storedUsername = "abc";
+    static final String storedPassword = "helloworld";
+
+    public static class LoginProcessor {
+        static boolean authenticate(String username, String password) {
+            return storedUsername.equals(username) && storedPassword.equals(password);
+        }
+    }
+}

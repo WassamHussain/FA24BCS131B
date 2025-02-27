@@ -1,0 +1,9 @@
+import com.authentication.User;
+import com.authentication.UserManager;
+
+public class Main {
+    public static void main(String[] args) {
+        User registeredUser = new User("abc", "helloworld");
+        UserManager.Login.authenticate(registeredUser);
+    }
+}
