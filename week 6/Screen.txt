@@ -1,0 +1,14 @@
+public class Screen{
+	int screenNumber;
+	String movietitle;
+	Seat seat[][];
+
+	Screen(int screenNumber, String movietitle, int row, int column){
+		this.screenNumber=screenNumber;
+		this.movietitle=movietitle;
+		seat[][]=new Seat[row][column];
+		
+
+}
+
+}
